@@ -224,12 +224,70 @@ const sights: CardRow[] = [
 
 const transport: CardRow[] = [
   [
-    '공항 ↔ 시내',
-    '후쿠오카 공항 지하철 이용. 컨택리스 결제 가능, 지하철 하루 최대 ¥640 제도 확인.',
+    '버스 승차법 · 현금/교통계 IC',
+    '앞·옆면 행선지 확인 → 승차구에서 현금은 정리권을 뽑고, nimoca·SUGOCA·Suica 등 교통계 IC는 터치 → 내릴 정류장 안내 후 벨 → 앞문에서 현금은 정리권+정확한 운임, IC는 다시 터치하고 하차. IC는 정리권을 뽑지 않는다.',
+    [
+      [
+        '니시테츠 공식 승·하차 안내',
+        'https://www.nishitetsu.jp/bus/norikata/norikata/',
+      ],
+      ['nimoca 버스 이용법', 'https://www.nimoca.jp/use/bus'],
+    ],
+  ],
+  [
+    '해외카드 컨택리스 · 버스',
+    '일반 니시테츠 노선버스 전체가 대상은 아니었다. 여행 당시 가능 노선은 하카타역↔후쿠오카공항 국제선, Fukuoka BRT, 다자이후 라이너버스 타비토(旅人), 후쿠오카↔구마모토 히노쿠니호. 승차·하차 모두 같은 카드/휴대폰을 터치한다.',
+    [
+      [
+        '니시테츠 터치결제 대상 노선',
+        'https://nishitetsu.jp/bus/norikata/tap-to-ride/',
+      ],
+    ],
+  ],
+  [
+    '후쿠오카시 지하철',
+    '공항선·하코자키선·나나쿠마선 36개 전 역에서 해외카드·Apple Pay·Google Pay 터치 가능. 같은 카드 번호와 같은 매체로 타면 1일 상한 ¥640. 카드 실물과 Apple Pay는 서로 다른 매체로 계산되며, JR 치쿠히선 직통 구간은 제외.',
+    [
+      [
+        '후쿠오카시 지하철 공식 안내',
+        'https://subway.city.fukuoka.lg.jp/topics/detail.php?id=1895',
+      ],
+    ],
+  ],
+  [
+    '니시테츠 전철',
+    '텐진오무타선·다자이후선·아마기선·카이즈카선 전 역에서 해외카드 터치 가능. 다만 다자이후역 동쪽 출구 등 일부 부출입구는 단말기가 없으므로 중앙 출구를 이용. 1카드·1명 성인 보통운임만 가능.',
+    [
+      [
+        '니시테츠 전철 공식 터치결제 안내',
+        'https://www.nishitetsu.jp/train/kippu/tattikessai/',
+      ],
+    ],
+  ],
+  [
+    'JR 규슈 · 후쿠오카 권역',
+    '2026.09.18 기준 92개 역: 가고시마본선 모지코↔구루메, 후쿠호쿠유타카선 오리오↔하카타, 카시이선 사이토자키↔우미, 와카마츠선 와카마츠↔오리오. 하카타↔후쿠마도 포함. 신칸센·신칸센 환승 개찰구는 제외하고 승차·하차 시 같은 매체를 사용.',
+    [
+      [
+        'JR 규슈 공식 터치결제 안내',
+        'https://www.jrkyushu.co.jp/railway/touch/',
+      ],
+      [
+        '2026.09.18 대상 92개 역 발표',
+        'https://www.jrkyushu.co.jp/railway/touch/pdf/news260908_1.pdf',
+      ],
+    ],
   ],
   [
     '히타',
-    '니시테츠 텐진 고속BT → 히타BT. 토·일·공휴일 시간표, 예약 불가 좌석정원제. 09:27 출발 / 18:20 목표 / 19:00 백업 막차.',
+    '니시테츠 텐진 고속BT → 히타BT. 예약 없는 좌석정원제라 승차장에 줄을 서고, 승차 시 교통계 IC를 터치한 뒤 히타에서 다시 터치해 정산. 해외 신용카드 컨택리스 대상 노선은 아니었으므로 nimoca·SUGOCA·Suica 등 교통계 IC, 현금 또는 승차권을 사용.',
+    [
+      [
+        '히타호 공식 운임·승차권',
+        'https://nishitetsu.jp/bus/highwaybus/rosen/hita/',
+      ],
+      ['nimoca 이용 가능 범위', 'https://www.nimoca.jp/area'],
+    ],
   ],
   [
     '유메산스이 시내 이동',
@@ -241,7 +299,7 @@ const transport: CardRow[] = [
   ],
   [
     '미야지다케',
-    '하카타 → JR 가고시마 본선 → 후쿠마 → 버스/택시. JR도 컨택리스 카드/Apple Pay/Google Pay 터치 가능하며 지하철 ¥640 상한과는 별개.',
+    '하카타 → JR 가고시마본선 → 후쿠마는 해외카드·Apple Pay·Google Pay 터치 가능. 후쿠마역↔미야지다케 노선버스는 일반 해외카드 컨택리스가 아니므로 교통계 IC 또는 현금을 사용. JR 운임은 지하철 ¥640 상한과 별개.',
   ],
   [
     'Bounce',
@@ -840,7 +898,7 @@ export default function App() {
       <div className="wrap">
         <header className="hero">
           <div className="eyebrow">
-            FUKUOKA TRIP PLANNER · <strong>BETA 1.6.2</strong>
+            FUKUOKA TRIP PLANNER · <strong>BETA 1.6.3</strong>
           </div>
           <div className="hero-row">
             <div>
@@ -1145,7 +1203,7 @@ export default function App() {
           )}
         </section>
         <footer>
-          FUKUOKA TRIP PLANNER · BETA 1.6.2 · 일정과 교통 시각, 할인 혜택은 여행
+          FUKUOKA TRIP PLANNER · BETA 1.6.3 · 일정과 교통 시각, 할인 혜택은 여행
           당일 공식 안내로 재확인
         </footer>
       </div>
