@@ -21,7 +21,7 @@ import type {
   TripSection,
 } from './types/trip';
 
-const APP_VERSION = 'BETA 1.6.3';
+const APP_VERSION = '2.0.0';
 const ITINERARY_ID = 'itinerary';
 type BenefitView = 'store' | 'payment';
 type ShoppingView = 'list' | 'benefits';

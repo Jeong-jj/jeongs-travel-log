@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fukuoka-trip-planner-v1.6.0';
+const CACHE_NAME = 'trip-archive-v2.0.0';
 const BASE_URL = new URL('./', self.location.href).pathname;
 const OFFLINE_PAGE = `${BASE_URL}index.html`;
 const APP_SHELL = [
@@ -47,6 +47,21 @@ self.addEventListener('fetch', (event) => {
           return response;
         })
         .catch(() => caches.match(OFFLINE_PAGE)),
+    );
+    return;
+  }
+
+  if (requestUrl.pathname.startsWith(`${BASE_URL}data/`)) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(request)),
     );
     return;
   }

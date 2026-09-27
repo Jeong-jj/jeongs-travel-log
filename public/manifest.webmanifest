@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "후쿠오카 여행 플래너",
-  "short_name": "후쿠오카",
-  "description": "2026 후쿠오카 4박 5일 일정과 여행 후보를 확인하는 모바일 플래너",
+  "name": "Trip Archive 여행 기록",
+  "short_name": "여행 기록",
+  "description": "여행별 일정과 장소, 비용, 실제 기록을 보관하는 모바일 아카이브",
   "lang": "ko",
   "start_url": "./",
   "scope": "./",

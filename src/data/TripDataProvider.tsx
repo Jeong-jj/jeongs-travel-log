@@ -90,6 +90,11 @@ export function TripDataProvider({
   }, [index, repository, selectedTripId]);
 
   useEffect(() => {
+    if (!trip || trip.id !== selectedTripId) return;
+    document.title = `${trip.meta.title} · Trip Archive`;
+  }, [selectedTripId, trip]);
+
+  useEffect(() => {
     if (!index) return;
     const onHashChange = () => {
       const requestedId = tripIdFromHash();
