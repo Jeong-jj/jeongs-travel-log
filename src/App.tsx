@@ -8,6 +8,7 @@ import {
   Plane,
   WalletCards,
 } from 'lucide-react';
+import { TripSelector } from './components/TripSelector';
 
 const tabs = ['일정', '관광', '교통', '먹거리', '쇼핑', '예산'] as const;
 type Tab = (typeof tabs)[number];
@@ -897,6 +898,7 @@ export default function App() {
       <div className="ambient ambient-b" />
       <div className="wrap">
         <header className="hero">
+          <TripSelector />
           <div className="eyebrow">
             FUKUOKA TRIP PLANNER · <strong>BETA 1.6.3</strong>
           </div>

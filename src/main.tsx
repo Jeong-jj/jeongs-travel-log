@@ -1,7 +1,11 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
+import { TripDataProvider } from './data/TripDataProvider';
+import { StaticTripRepository } from './data/tripRepository';
 import './index.css';
+
+const tripRepository = new StaticTripRepository();
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -13,6 +17,8 @@ if ('serviceWorker' in navigator) {
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <TripDataProvider repository={tripRepository}>
+      <App />
+    </TripDataProvider>
   </StrictMode>,
 );
