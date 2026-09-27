@@ -128,22 +128,29 @@ const days = [
     state: '축제 + 2차',
     items: [
       [
-        '10:00 ~ 10:30',
+        '09:30 ~ 09:45',
         '하카타역 출발 목표',
         'JR 가고시마 본선 일반/쾌속 · 하카타→후쿠마 약 25분',
         'https://m.blog.naver.com/yunni_gongbang/224406531097',
+        '미야지다케 가는 법',
       ],
       [
-        '10:40 ~ 11:10',
+        '10:10 ~ 10:20',
         '후쿠마역 도착',
         '버스/택시 약 5분 · 도보 약 25분 · 버스 편도 약 ¥210',
       ],
       [
-        '11시대',
+        '10:30 ~ 10:45',
         '미야지다케 신사 도착',
-        '오쿠다리 13시 전후 시작 예상 · 공식 발표 후 분 단위 갱신',
+        '참배 후 11:15 전에 제1주차장 특설회장·오모테산도 주변 관람 위치 확보',
       ],
-      ['오후', '미야지다케 축제 관람', '공휴일 혼잡 시 버스 대신 택시 플랜 B'],
+      [
+        '12:00',
+        '추계대제 어신행렬 오쿠다리',
+        '미야지다케 신사→미야지하마 약 2km · 2026.09.18 공식 발표 기준',
+        'https://www.miyajidake.or.jp/news/topics/%E7%A7%8B%E5%AD%A3%E5%A4%A7%E7%A5%AD%E8%A1%8C%E4%BA%8B%E6%97%A5%E7%A8%8B',
+        '2026 추계대제 공식 일정',
+      ],
       [
         '복귀',
         '후쿠마 → 하카타',
@@ -207,7 +214,7 @@ const sights: CardRow[] = [
   ],
   [
     '미야지다케 신사',
-    '9/21 공휴일·축제일. 오쿠다리 정확한 시각은 공식 발표 후 확인',
+    '9/21 공휴일·축제일. 12:00 추계대제 어신행렬 오쿠다리 관람',
   ],
   [
     '후쿠오카성터 + 오호리공원',
@@ -833,7 +840,7 @@ export default function App() {
       <div className="wrap">
         <header className="hero">
           <div className="eyebrow">
-            FUKUOKA TRIP PLANNER · <strong>BETA 1.6.1</strong>
+            FUKUOKA TRIP PLANNER · <strong>BETA 1.6.2</strong>
           </div>
           <div className="hero-row">
             <div>
@@ -962,26 +969,29 @@ export default function App() {
                 <em>{days[day].state}</em>
               </div>
               <div className="timeline">
-                {days[day].items.map(([time, place, note, reference]) => (
-                  <article className="timeline-item" key={time + place}>
-                    <time>{time}</time>
-                    <div className="dot" />
-                    <div>
-                      <h3>{place}</h3>
-                      <p>{note}</p>
-                      {reference && (
-                        <a
-                          className="timeline-link"
-                          href={reference}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          미야지다케 가는 법 참고 <ExternalLink size={14} />
-                        </a>
-                      )}
-                    </div>
-                  </article>
-                ))}
+                {days[day].items.map(
+                  ([time, place, note, reference, referenceLabel]) => (
+                    <article className="timeline-item" key={time + place}>
+                      <time>{time}</time>
+                      <div className="dot" />
+                      <div>
+                        <h3>{place}</h3>
+                        <p>{note}</p>
+                        {reference && (
+                          <a
+                            className="timeline-link"
+                            href={reference}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            {referenceLabel ?? '참고 링크'}{' '}
+                            <ExternalLink size={14} />
+                          </a>
+                        )}
+                      </div>
+                    </article>
+                  ),
+                )}
               </div>
             </>
           )}
@@ -1135,7 +1145,7 @@ export default function App() {
           )}
         </section>
         <footer>
-          FUKUOKA TRIP PLANNER · BETA 1.6.1 · 일정과 교통 시각, 할인 혜택은 여행
+          FUKUOKA TRIP PLANNER · BETA 1.6.2 · 일정과 교통 시각, 할인 혜택은 여행
           당일 공식 안내로 재확인
         </footer>
       </div>
