@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://jeong-jj.github.io/fukuoka-travel-plan/schemas/trip-index.schema.json",
+  "$id": "https://jeong-jj.github.io/jeongs-travel-log/schemas/trip-index.schema.json",
   "title": "Trip index v1",
   "type": "object",
   "additionalProperties": false,

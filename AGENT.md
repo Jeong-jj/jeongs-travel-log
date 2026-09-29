@@ -1,4 +1,4 @@
-# Fukuoka Trip Agent Guide
+# Jeong's Travel Log Agent Guide
 
 ## 문서 역할
 

@@ -27,7 +27,7 @@ const tripIdFromHash = () => {
 function LoadingScreen({ message }: { message: string }) {
   return (
     <output className="data-state">
-      <span>TRIP ARCHIVE</span>
+      <span>JEONG&apos;S TRAVEL LOG</span>
       <h1>{message}</h1>
     </output>
   );
@@ -91,7 +91,7 @@ export function TripDataProvider({
 
   useEffect(() => {
     if (!trip || trip.id !== selectedTripId) return;
-    document.title = `${trip.meta.title} · Trip Archive`;
+    document.title = `${trip.meta.title} | Jeong's Travel Log`;
   }, [selectedTripId, trip]);
 
   useEffect(() => {
