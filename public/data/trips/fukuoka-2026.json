@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "id": "fukuoka-2026",
+  "meta": {
+    "title": "후쿠오카 4박 5일",
+    "subtitle": "도시 · 역사 · 축제 · 쇼핑 · 먹거리 · 술",
+    "destination": "후쿠오카",
+    "startDate": "2026-09-18",
+    "endDate": "2026-09-22",
+    "timezone": "Asia/Tokyo",
+    "locale": "ko-KR",
+    "travelers": 2,
+    "status": "completed",
+    "tags": ["후쿠오카", "히타", "다자이후", "미야지다케"]
+  },
+  "hero": {
+    "eyebrow": "FUKUOKA TRIP PLANNER",
+    "headline": ["후쿠오카", "4박 5일"],
+    "seal": {
+      "primary": "九州",
+      "secondary": "FUKUOKA"
+    },
+    "facts": [
+      {
+        "id": "arrival",
+        "icon": "arrival",
+        "label": "9/18 13:40 도착"
+      },
+      {
+        "id": "departure",
+        "icon": "departure",
+        "label": "9/22 19:40 출발"
+      },
+      {
+        "id": "shared-budget",
+        "icon": "budget",
+        "label": "공용비 ¥80,000"
+      }
+    ],
+    "accommodation": {
+      "name": "Atlas Apartment",
+      "detail": "4박 · 2인 · 텐진·다이묘 도보권",
+      "address": "후쿠오카시 주오구 다이묘 1초메 1-9",
+      "checkIn": "9/18 16:00",
+      "checkOut": "9/22 10:00",
+      "amount": {
+        "amount": 79834,
+        "currency": "JPY",
+        "display": "¥79,834 / 2인"
+      },
+      "mapUrl": "https://maps.google.com/?q=1-1-9+Daimyo+Chuo+Ward+Fukuoka"
+    },
+    "savedMap": {
+      "label": "후쿠오카 전체 저장 목록",
+      "href": "https://maps.app.goo.gl/DgXaRUgMjiE5ZEkS9?g_st=i",
+      "kind": "map",
+      "description": "관광 · 쇼핑 · 먹거리 한 번에 보기"
+    }
+  },
+  "itinerary": [
+    {
+      "id": "day-1",
+      "date": "2026-09-18",
+      "dateLabel": "9/18 금",
+      "title": "DAY 1 · 텐진 / 다이묘",
+      "state": "쇼핑 + 야타이",
+      "events": [
+        {
+          "id": "day-1-event-1",
+          "timeLabel": "13:40",
+          "title": "후쿠오카 공항 도착",
+          "description": "입국 수속 → 지하철 → Atlas Apartment 이동"
+        },
+        {
+          "id": "day-1-event-2",
+          "timeLabel": "16:00",
+          "title": "Atlas Apartment 체크인",
+          "description": "짐 정리 후 텐진·미나텐진·다이묘 도보권 이동"
+        },
+        {
+          "id": "day-1-event-3",
+          "timeLabel": "16:30 ~",
+          "title": "텐진 · 미나텐진 · 다이묘 쇼핑",
+          "description": "Standard Products, GU, BOOK OFF, 몽벨, 주류·카메라 매장"
+        },
+        {
+          "id": "day-1-event-4",
+          "timeLabel": "저녁",
+          "title": "저녁 자유 슬롯",
+          "description": "먹거리 후보에서 당일 동선 · 대기시간 · 컨디션에 맞춰 선택"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "date": "2026-09-19",
+      "dateLabel": "9/19 토",
+      "title": "DAY 2 · 후쿠오카성 / 오호리",
+      "state": "회복 + 시내",
+      "events": [
+        {
+          "id": "day-2-event-1",
+          "timeLabel": "늦은 오전",
+          "title": "여유 있게 하루 시작",
+          "description": "전날 이동 피로를 풀고 숙소 주변에서 브런치"
+        },
+        {
+          "id": "day-2-event-2",
+          "timeLabel": "오후",
+          "title": "후쿠오카성터",
+          "description": "마이즈루공원과 성터를 천천히 산책"
+        },
+        {
+          "id": "day-2-event-3",
+          "timeLabel": "오후",
+          "title": "오호리공원",
+          "description": "호수 산책 · 카페 · 휴식"
+        },
+        {
+          "id": "day-2-event-4",
+          "timeLabel": "저녁",
+          "title": "저녁 자유 슬롯",
+          "description": "먹거리 후보에서 당일 동선 · 대기시간 · 컨디션에 맞춰 선택"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "date": "2026-09-20",
+      "dateLabel": "9/20 일",
+      "title": "DAY 3 · 히타",
+      "state": "핵심 원정",
+      "events": [
+        {
+          "id": "day-3-event-1",
+          "timeLabel": "09:00",
+          "title": "니시테츠 텐진 고속버스터미널",
+          "description": "예약 불필요 좌석정원제 · 연휴이므로 일찍 줄서기"
+        },
+        {
+          "id": "day-3-event-2",
+          "timeLabel": "09:27",
+          "title": "텐진 → 히타",
+          "description": "고속버스 히타호 · 11:00 전후 도착 · 왕복 ¥3,580/인"
+        },
+        {
+          "id": "day-3-event-3",
+          "timeLabel": "점심",
+          "title": "히타마부시 센야",
+          "description": "10:30~16:30 · LO 15:30 · 2명 예약 불가, 현장 번호표"
+        },
+        {
+          "id": "day-3-event-4",
+          "timeLabel": "오후",
+          "title": "삿포로 맥주공장",
+          "description": "일요일 정상 영업 · 무료 자유견학 + 유료 테이스팅 · 주문 마감 16:00"
+        },
+        {
+          "id": "day-3-event-5",
+          "timeLabel": "15:20 ~",
+          "title": "琴ひら温泉 유메산스이",
+          "description": "일요일 11:00~21:00 · 최종접수 20:30 · 성인 ¥800 · 밝을 때 계곡 노천탕"
+        },
+        {
+          "id": "day-3-event-6",
+          "timeLabel": "17:00 ~",
+          "title": "저녁 자유 슬롯",
+          "description": "히타 또는 후쿠오카 복귀 후 먹거리 후보 중 유동적으로 선택"
+        },
+        {
+          "id": "day-3-event-7",
+          "timeLabel": "18:20",
+          "title": "히타 → 텐진 목표편",
+          "description": "19:50 도착 예상 · 놓치면 19:00 → 20:30 백업 막차"
+        },
+        {
+          "id": "day-3-event-8",
+          "timeLabel": "비상",
+          "title": "택시 플랜 B",
+          "description": "히타→후쿠오카 약 ¥20,000~25,000+ · 고속도로비 별도 가능"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "date": "2026-09-21",
+      "dateLabel": "9/21 월",
+      "title": "DAY 4 · 미야지다케",
+      "state": "축제 + 2차",
+      "events": [
+        {
+          "id": "day-4-event-1",
+          "timeLabel": "09:30 ~ 09:45",
+          "title": "하카타역 출발 목표",
+          "description": "JR 가고시마 본선 일반/쾌속 · 하카타→후쿠마 약 25분",
+          "links": [
+            {
+              "label": "미야지다케 가는 법",
+              "href": "https://m.blog.naver.com/yunni_gongbang/224406531097",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "day-4-event-2",
+          "timeLabel": "10:10 ~ 10:20",
+          "title": "후쿠마역 도착",
+          "description": "버스/택시 약 5분 · 도보 약 25분 · 버스 편도 약 ¥210"
+        },
+        {
+          "id": "day-4-event-3",
+          "timeLabel": "10:30 ~ 10:45",
+          "title": "미야지다케 신사 도착",
+          "description": "참배 후 11:15 전에 제1주차장 특설회장·오모테산도 주변 관람 위치 확보"
+        },
+        {
+          "id": "day-4-event-4",
+          "timeLabel": "12:00",
+          "title": "추계대제 어신행렬 오쿠다리",
+          "description": "미야지다케 신사→미야지하마 약 2km · 2026.09.18 공식 발표 기준",
+          "links": [
+            {
+              "label": "2026 추계대제 공식 일정",
+              "href": "https://www.miyajidake.or.jp/news/topics/%E7%A7%8B%E5%AD%A3%E5%A4%A7%E7%A5%AD%E8%A1%8C%E4%BA%8B%E6%97%A5%E7%A8%8B",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "day-4-event-5",
+          "timeLabel": "복귀",
+          "title": "후쿠마 → 하카타",
+          "description": "출발 직전 Google Maps로 실시간 최적 경로 재검색"
+        },
+        {
+          "id": "day-4-event-6",
+          "timeLabel": "저녁",
+          "title": "저녁 자유 슬롯",
+          "description": "먹거리 후보에서 당일 동선 · 대기시간 · 컨디션에 맞춰 선택"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "date": "2026-09-22",
+      "dateLabel": "9/22 화",
+      "title": "DAY 5 · 다자이후",
+      "state": "역사 + 귀국",
+      "events": [
+        {
+          "id": "day-5-event-1",
+          "timeLabel": "10:00",
+          "title": "체크아웃 → Bounce 짐 보관",
+          "description": "텐진역 인근 Tenjin Station North Exit · 앱 예약 · 짐 2개 ¥1,700"
+        },
+        {
+          "id": "day-5-event-2",
+          "timeLabel": "10:30 전후",
+          "title": "니시테츠 후쿠오카(텐진)역 출발",
+          "description": "짐 없이 니시테츠 전철로 다자이후 이동"
+        },
+        {
+          "id": "day-5-event-3",
+          "timeLabel": "11:30 ~ 14:00",
+          "title": "다자이후 텐만구",
+          "description": "참배 · 산도 산책 · 점심 · 우메가에모치"
+        },
+        {
+          "id": "day-5-event-4",
+          "timeLabel": "14:30",
+          "title": "다자이후 출발",
+          "description": "출국 여유를 위해 늦어도 14:30에는 텐진으로 복귀"
+        },
+        {
+          "id": "day-5-event-5",
+          "timeLabel": "15:30 전후",
+          "title": "텐진 도착 → 짐 회수",
+          "description": "Bounce에서 짐을 찾고 공항으로 이동"
+        },
+        {
+          "id": "day-5-event-6",
+          "timeLabel": "16:00 ~ 16:30",
+          "title": "후쿠오카 공항 도착 목표",
+          "description": "국제선 수속 시간을 넉넉하게 확보"
+        },
+        {
+          "id": "day-5-event-7",
+          "timeLabel": "19:40",
+          "title": "후쿠오카 출발",
+          "description": "여유 있게 공항 도착"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "sights",
+      "type": "cards",
+      "navLabel": "관광",
+      "eyebrow": "PLACES",
+      "title": "관광 포인트",
+      "items": [
+        {
+          "id": "sight-1",
+          "title": "히타",
+          "description": "마메다마치 · 히타마부시 · 삿포로 맥주공장 · 유메산스이 · 히타 야키소바를 하루에 연결"
+        },
+        {
+          "id": "sight-2",
+          "title": "다자이후 텐만구",
+          "description": "니시테츠 텐진 출발. 참배와 산도, 우메가에모치까지 묶는 반나절"
+        },
+        {
+          "id": "sight-3",
+          "title": "미야지다케 신사",
+          "description": "9/21 공휴일·축제일. 12:00 추계대제 어신행렬 오쿠다리 관람"
+        },
+        {
+          "id": "sight-4",
+          "title": "후쿠오카성터 + 오호리공원",
+          "description": "도착 다음 날 늦게 시작해 여행 피로를 풀며 걷는 시내 산책 코스"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "type": "cards",
+      "navLabel": "교통",
+      "eyebrow": "TRANSIT",
+      "title": "교통 상세",
+      "items": [
+        {
+          "id": "transport-1",
+          "title": "버스 승차법 · 현금/교통계 IC",
+          "description": "앞·옆면 행선지 확인 → 승차구에서 현금은 정리권을 뽑고, nimoca·SUGOCA·Suica 등 교통계 IC는 터치 → 내릴 정류장 안내 후 벨 → 앞문에서 현금은 정리권+정확한 운임, IC는 다시 터치하고 하차. IC는 정리권을 뽑지 않는다.",
+          "links": [
+            {
+              "label": "니시테츠 공식 승·하차 안내",
+              "href": "https://www.nishitetsu.jp/bus/norikata/norikata/",
+              "kind": "reference"
+            },
+            {
+              "label": "nimoca 버스 이용법",
+              "href": "https://www.nimoca.jp/use/bus",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "transport-2",
+          "title": "해외카드 컨택리스 · 버스",
+          "description": "일반 니시테츠 노선버스 전체가 대상은 아니었다. 여행 당시 가능 노선은 하카타역↔후쿠오카공항 국제선, Fukuoka BRT, 다자이후 라이너버스 타비토(旅人), 후쿠오카↔구마모토 히노쿠니호. 승차·하차 모두 같은 카드/휴대폰을 터치한다.",
+          "links": [
+            {
+              "label": "니시테츠 터치결제 대상 노선",
+              "href": "https://nishitetsu.jp/bus/norikata/tap-to-ride/",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "transport-3",
+          "title": "후쿠오카시 지하철",
+          "description": "공항선·하코자키선·나나쿠마선 36개 전 역에서 해외카드·Apple Pay·Google Pay 터치 가능. 같은 카드 번호와 같은 매체로 타면 1일 상한 ¥640. 카드 실물과 Apple Pay는 서로 다른 매체로 계산되며, JR 치쿠히선 직통 구간은 제외.",
+          "links": [
+            {
+              "label": "후쿠오카시 지하철 공식 안내",
+              "href": "https://subway.city.fukuoka.lg.jp/topics/detail.php?id=1895",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "transport-4",
+          "title": "니시테츠 전철",
+          "description": "텐진오무타선·다자이후선·아마기선·카이즈카선 전 역에서 해외카드 터치 가능. 다만 다자이후역 동쪽 출구 등 일부 부출입구는 단말기가 없으므로 중앙 출구를 이용. 1카드·1명 성인 보통운임만 가능.",
+          "links": [
+            {
+              "label": "니시테츠 전철 공식 터치결제 안내",
+              "href": "https://www.nishitetsu.jp/train/kippu/tattikessai/",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "transport-5",
+          "title": "JR 규슈 · 후쿠오카 권역",
+          "description": "2026.09.18 기준 92개 역: 가고시마본선 모지코↔구루메, 후쿠호쿠유타카선 오리오↔하카타, 카시이선 사이토자키↔우미, 와카마츠선 와카마츠↔오리오. 하카타↔후쿠마도 포함. 신칸센·신칸센 환승 개찰구는 제외하고 승차·하차 시 같은 매체를 사용.",
+          "links": [
+            {
+              "label": "JR 규슈 공식 터치결제 안내",
+              "href": "https://www.jrkyushu.co.jp/railway/touch/",
+              "kind": "reference"
+            },
+            {
+              "label": "2026.09.18 대상 92개 역 발표",
+              "href": "https://www.jrkyushu.co.jp/railway/touch/pdf/news260908_1.pdf",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "transport-6",
+          "title": "히타",
+          "description": "니시테츠 텐진 고속BT → 히타BT. 예약 없는 좌석정원제라 승차장에 줄을 서고, 승차 시 교통계 IC를 터치한 뒤 히타에서 다시 터치해 정산. 해외 신용카드 컨택리스 대상 노선은 아니었으므로 nimoca·SUGOCA·Suica 등 교통계 IC, 현금 또는 승차권을 사용.",
+          "links": [
+            {
+              "label": "히타호 공식 운임·승차권",
+              "href": "https://nishitetsu.jp/bus/highwaybus/rosen/hita/",
+              "kind": "reference"
+            },
+            {
+              "label": "nimoca 이용 가능 범위",
+              "href": "https://www.nimoca.jp/area",
+              "kind": "reference"
+            }
+          ]
+        },
+        {
+          "id": "transport-7",
+          "title": "유메산스이 시내 이동",
+          "description": "히타역·BT에서 차로 약 10분. ひたはしり号 B코스 또는 택시를 일정에 맞춰 사용."
+        },
+        {
+          "id": "transport-8",
+          "title": "다자이후",
+          "description": "니시테츠 후쿠오카(텐진)역 → 다자이후역. 당일 출발 시각에 맞춰 환승 확인."
+        },
+        {
+          "id": "transport-9",
+          "title": "미야지다케",
+          "description": "하카타 → JR 가고시마본선 → 후쿠마는 해외카드·Apple Pay·Google Pay 터치 가능. 후쿠마역↔미야지다케 노선버스는 일반 해외카드 컨택리스가 아니므로 교통계 IC 또는 현금을 사용. JR 운임은 지하철 ¥640 상한과 별개."
+        },
+        {
+          "id": "transport-10",
+          "title": "Bounce",
+          "description": "체크아웃 직후 텐진역 북쪽 출구 인근 보관소. 앱 사전예약, 짐 2개 ¥1,700."
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "type": "grouped-directory",
+      "navLabel": "먹거리",
+      "eyebrow": "FOOD",
+      "title": "지역별 먹거리 후보",
+      "regions": [
+        {
+          "id": "food-region-1",
+          "label": "후쿠오카 시내",
+          "groups": [
+            {
+              "id": "food-region-1-group-1",
+              "label": "라멘",
+              "places": [
+                {
+                  "id": "food-region-1-group-1-place-1",
+                  "name": "후톤 라멘",
+                  "href": "https://www.google.com/maps/search/?api=1&query=후톤+라멘+후쿠오카"
+                }
+              ]
+            },
+            {
+              "id": "food-region-1-group-2",
+              "label": "야타이",
+              "places": [
+                {
+                  "id": "food-region-1-group-2-place-1",
+                  "name": "텐진 야타이",
+                  "href": "https://maps.app.goo.gl/Tmv7Fg5UMtbcmsC57?g_st=ic",
+                  "note": "첫날 저녁 + 술"
+                }
+              ]
+            },
+            {
+              "id": "food-region-1-group-3",
+              "label": "야키니쿠",
+              "places": [
+                {
+                  "id": "food-region-1-group-3-place-1",
+                  "name": "시치린야",
+                  "href": "https://maps.app.goo.gl/suXqMW8KbTK43iQ88?g_st=ic",
+                  "note": "하루요시 1초메"
+                },
+                {
+                  "id": "food-region-1-group-3-place-2",
+                  "name": "야키니쿠 아카탄",
+                  "href": "https://maps.app.goo.gl/qk9cCrRjVgYUAMMw9?g_st=ic"
+                }
+              ]
+            },
+            {
+              "id": "food-region-1-group-4",
+              "label": "사시미",
+              "places": [
+                {
+                  "id": "food-region-1-group-4-place-1",
+                  "name": "설화(유키하나)",
+                  "href": "https://maps.app.goo.gl/QthTzh2mijSMqVjr8?g_st=ic",
+                  "note": "1순위 · 하루요시 3초메"
+                },
+                {
+                  "id": "food-region-1-group-4-place-2",
+                  "name": "카츠카이슈",
+                  "href": "https://maps.app.goo.gl/2vRRJpxDYw7cQm2CA?g_st=ic"
+                },
+                {
+                  "id": "food-region-1-group-4-place-3",
+                  "name": "카와타로 나카스본점",
+                  "href": "https://maps.app.goo.gl/oU4q53zfhJHz5j3z8?g_st=ic",
+                  "note": "오징어회"
+                }
+              ]
+            },
+            {
+              "id": "food-region-1-group-5",
+              "label": "오뎅바",
+              "places": [
+                {
+                  "id": "food-region-1-group-5-place-1",
+                  "name": "나다이오뎅 야스베",
+                  "href": "https://maps.app.goo.gl/tUSkHgRwiMJo4mBcA?g_st=ic",
+                  "note": "니시나카스"
+                },
+                {
+                  "id": "food-region-1-group-5-place-2",
+                  "name": "하츠유키",
+                  "href": "https://maps.app.goo.gl/pP8XNsdgj8DSPv1A9?g_st=ic",
+                  "note": "다이묘"
+                }
+              ]
+            },
+            {
+              "id": "food-region-1-group-6",
+              "label": "야키토리",
+              "places": [
+                {
+                  "id": "food-region-1-group-6-place-1",
+                  "name": "야키토리 마코토짱",
+                  "href": "https://maps.app.goo.gl/4Ss65Pa6uev2hGsx7?g_st=ic"
+                },
+                {
+                  "id": "food-region-1-group-6-place-2",
+                  "name": "스미게키죠 무사시자",
+                  "href": "https://maps.app.goo.gl/55bCDDnmXBCFGSgy7?g_st=ic",
+                  "note": "원시구이"
+                },
+                {
+                  "id": "food-region-1-group-6-place-3",
+                  "name": "토리카와 야키토리 미츠마스 텐진점",
+                  "href": "https://maps.app.goo.gl/YEj6pUBptz5kUtqZ8?g_st=ic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "food-region-2",
+          "label": "다자이후",
+          "groups": [
+            {
+              "id": "food-region-2-group-1",
+              "label": "명란 와규 덮밥",
+              "places": [
+                {
+                  "id": "food-region-2-group-1-place-1",
+                  "name": "와규 멘타이코 카구라",
+                  "href": "https://maps.app.goo.gl/mqF8uZv2V5J5JWdR9?g_st=ic"
+                }
+              ]
+            },
+            {
+              "id": "food-region-2-group-2",
+              "label": "우메가에모치",
+              "places": [
+                {
+                  "id": "food-region-2-group-2-place-1",
+                  "name": "카사노야",
+                  "href": "https://maps.app.goo.gl/frUyhafmzRjgXquV7?g_st=ic",
+                  "note": "다자이후 산도 간식"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "food-region-3",
+          "label": "히타",
+          "groups": [
+            {
+              "id": "food-region-3-group-1",
+              "label": "장어",
+              "places": [
+                {
+                  "id": "food-region-3-group-1-place-1",
+                  "name": "히타마부시 센야",
+                  "href": "https://maps.app.goo.gl/AHVgqwTQUHCppUom6?g_st=ic",
+                  "note": "1순위 · 2명 예약 불가"
+                },
+                {
+                  "id": "food-region-3-group-1-place-2",
+                  "name": "이타야 본가(いた屋本家)",
+                  "href": "https://maps.app.goo.gl/k6qsSCp5Lnc7Ki4d8",
+                  "note": "센야 플랜 B · 예약 가능"
+                },
+                {
+                  "id": "food-region-3-group-1-place-3",
+                  "name": "우나기 로테이(うなぎ 鷺邸)",
+                  "href": "https://maps.app.goo.gl/JW3262CVK4dGuVpLA",
+                  "note": "강을 보는 고택 분위기"
+                }
+              ]
+            },
+            {
+              "id": "food-region-3-group-2",
+              "label": "히타 야키소바",
+              "places": [
+                {
+                  "id": "food-region-3-group-2-place-1",
+                  "name": "소노다",
+                  "href": "https://maps.app.goo.gl/c7R72chbgJNuMpQa9?g_st=ic"
+                },
+                {
+                  "id": "food-region-3-group-2-place-2",
+                  "name": "다이가쿠켄",
+                  "href": "https://maps.app.goo.gl/aj23Nj4beiYB5FLZ9?g_st=ic"
+                },
+                {
+                  "id": "food-region-3-group-2-place-3",
+                  "name": "야키소바 쿠라게(焼きそば くらげ)",
+                  "href": "https://maps.app.goo.gl/aAzKUKx1yKcnsQQMA?g_st=ic",
+                  "note": "포장 전용"
+                }
+              ]
+            },
+            {
+              "id": "food-region-3-group-3",
+              "label": "맥주",
+              "places": [
+                {
+                  "id": "food-region-3-group-3-place-1",
+                  "name": "삿포로 맥주공장 테이스팅 살롱",
+                  "href": "https://www.google.com/maps/search/?api=1&query=Sapporo+Beer+Kyushu+Hita+Brewery",
+                  "note": "주문 마감 16:00 · 흑라벨/에비스 각 ¥450"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "type": "shopping",
+      "navLabel": "쇼핑",
+      "eyebrow": "SHOPPING",
+      "title": "쇼핑 정보",
+      "shoppingList": [
+        {
+          "id": "shopping-item-1",
+          "store": "Standard Products",
+          "item": "보냉백 · 여행용품 · 에코백 · 러기지 스트랩",
+          "criteria": "필요품 우선"
+        },
+        {
+          "id": "shopping-item-2",
+          "store": "GU",
+          "item": "의류 · 이너 · 가벼운 여행복",
+          "criteria": "사이즈와 면세 확인"
+        },
+        {
+          "id": "shopping-item-3",
+          "store": "BOOK OFF",
+          "item": "중고 의류 · 잡화 · 취미품",
+          "criteria": "상태 대비 가격 비교"
+        },
+        {
+          "id": "shopping-item-4",
+          "store": "몽벨",
+          "item": "아웃도어 의류 · 소형 여행 장비",
+          "criteria": "국내가와 비교"
+        },
+        {
+          "id": "shopping-item-5",
+          "store": "빅카메라",
+          "item": "전자제품 · 카메라 액세서리",
+          "criteria": "쿠폰·면세·보증 조건 확인"
+        },
+        {
+          "id": "shopping-item-6",
+          "store": "LINXAS",
+          "item": "위스키 시세 조사와 실물 확인",
+          "criteria": "목표가보다 높으면 보류"
+        },
+        {
+          "id": "shopping-item-7",
+          "store": "야마야",
+          "item": "대중적인 주류와 안주",
+          "criteria": "면세·수하물 한도 확인"
+        },
+        {
+          "id": "shopping-item-8",
+          "store": "Champ de Vin",
+          "item": "와인·위스키 탐색",
+          "criteria": "희소품 위주"
+        },
+        {
+          "id": "shopping-item-9",
+          "store": "HIGHTIME",
+          "item": "위스키 전문 탐색",
+          "criteria": "히비키 Blender’s Choice · 야마자키 12 · 조니워커 블루 목표가 비교"
+        },
+        {
+          "id": "shopping-item-10",
+          "store": "카메라의 나니와",
+          "item": "중고 카메라 · 렌즈",
+          "criteria": "하카타 마루이점 매장 재고 확인"
+        },
+        {
+          "id": "shopping-item-11",
+          "store": "카메라의 키타무라",
+          "item": "중고 카메라 · 렌즈",
+          "criteria": "온라인 중고가와 현장 상태 비교"
+        },
+        {
+          "id": "shopping-item-12",
+          "store": "Takachiho / 타카치호 텐진",
+          "item": "중고 카메라 구경",
+          "criteria": "후순위 · 나니와 매장별 재고와 함께 확인"
+        }
+      ],
+      "resourceLinks": [
+        {
+          "label": "Naniwa 중고재고",
+          "href": "https://www.cameranonaniwa.co.jp/",
+          "kind": "reference"
+        },
+        {
+          "label": "Kitamura 중고",
+          "href": "https://shop.kitamura.jp/",
+          "kind": "reference"
+        },
+        {
+          "label": "가격.com 카메라 시세",
+          "href": "https://kakaku.com/camera/",
+          "kind": "reference"
+        },
+        {
+          "label": "Yahoo! 옥션 낙찰시세",
+          "href": "https://auctions.yahoo.co.jp/closedsearch/closedsearch",
+          "kind": "reference"
+        }
+      ],
+      "benefitCallouts": [
+        {
+          "id": "bic-camera-comparison",
+          "label": "빅카메라",
+          "title": "카카오페이 ¥2,000",
+          "description": "동일 최소금액의 네이버페이보다 ¥500 큼"
+        },
+        {
+          "id": "donki-comparison",
+          "label": "돈키호테",
+          "title": "¥15,000이면 네이버페이",
+          "description": "¥30,000 이상이면 7% 매장 쿠폰과 비교"
+        },
+        {
+          "id": "gu-parco-comparison",
+          "label": "GU · PARCO",
+          "title": "여행 당시 카카오페이 우세",
+          "description": "각각 네이버페이보다 ¥100 · ¥200 큼"
+        }
+      ],
+      "benefits": [
+        {
+          "id": "shopping-benefit-1",
+          "store": "돈키호테",
+          "payment": "카카오페이",
+          "minimum": "¥15,000",
+          "discount": "¥1,000 즉시 할인",
+          "deadline": "2026.10.31",
+          "href": "https://gauntlet.kakaopay.com/promotion/Gc3aa5288486d493d813",
+          "note": "카카오페이머니 · 기간 내 1회 · 일부 점포 제외",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-2",
+          "store": "빅카메라",
+          "payment": "카카오페이",
+          "minimum": "¥15,000",
+          "discount": "¥2,000 즉시 할인",
+          "deadline": "2026.10.31",
+          "href": "https://gauntlet.kakaopay.com/promotion/G32d7d8e3658d426a9af",
+          "note": "카카오페이머니 · 기간 내 1회 · 일일 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-3",
+          "store": "후쿠오카 PARCO",
+          "payment": "카카오페이",
+          "minimum": "¥10,000",
+          "discount": "¥1,200 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://gauntlet.kakaopay.com/promotion/G5b22a853751944e08be",
+          "note": "후쿠오카·삿포로·나고야점 · 기간 내 1회",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-4",
+          "store": "GU",
+          "payment": "카카오페이",
+          "minimum": "¥5,000",
+          "discount": "¥600 즉시 할인",
+          "deadline": "2026.10.11",
+          "href": "https://gauntlet.kakaopay.com/promotion/Ge18a7a9c7ca843e8bd7",
+          "note": "카카오페이머니 · 기간 내 1회 · 일일 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-5",
+          "store": "PayPay 가맹점",
+          "payment": "네이버페이",
+          "minimum": "제한 없음",
+          "discount": "10% · 1회 최대 ¥500",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332038195",
+          "note": "매장 PayPay QR 촬영 · 월 5회 · 일별 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-6",
+          "store": "돈키호테",
+          "payment": "네이버페이",
+          "minimum": "¥15,000",
+          "discount": "¥1,500 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332099219",
+          "note": "Alipay+ 해외QR · 가맹점별 5회 · 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-7",
+          "store": "빅카메라",
+          "payment": "네이버페이",
+          "minimum": "¥15,000",
+          "discount": "¥1,500 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332099219",
+          "note": "Alipay+ 해외QR · 가맹점별 5회 · 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-8",
+          "store": "후쿠오카 PARCO",
+          "payment": "네이버페이",
+          "minimum": "¥10,000",
+          "discount": "¥1,000 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332078740",
+          "note": "Alipay+ 해외QR · 가맹점별 5회 · 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-9",
+          "store": "GU",
+          "payment": "네이버페이",
+          "minimum": "¥5,000",
+          "discount": "¥500 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332078740",
+          "note": "Alipay+ 해외QR · 가맹점별 5회 · 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-10",
+          "store": "솔라리아 플라자",
+          "payment": "네이버페이",
+          "minimum": "¥10,000",
+          "discount": "¥1,000 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332078740",
+          "note": "Alipay+ 해외QR · 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-11",
+          "store": "솔라리아 스테이지",
+          "payment": "네이버페이",
+          "minimum": "¥5,000",
+          "discount": "¥500 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332078740",
+          "note": "Alipay+ 해외QR · 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-12",
+          "store": "후쿠오카공항 대상 매장",
+          "payment": "네이버페이",
+          "minimum": "¥10,000",
+          "discount": "¥1,000 즉시 할인",
+          "deadline": "2026.09.30",
+          "href": "https://blog.naver.com/nv_npay/224332107150",
+          "note": "Alipay+ 해외QR · 일부 매장 제외 · 선착순",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-13",
+          "store": "돈키호테",
+          "payment": "매장 쿠폰",
+          "minimum": "세전 ¥10,000",
+          "discount": "면세 + 최대 5%",
+          "deadline": "종료일 미표기",
+          "href": "https://livejapan.com/public/operation/coupon/donki/ko.html",
+          "note": "실시간 바코드 필수 · 스크린샷 불가 · 주류 등 제외",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-14",
+          "store": "돈키호테",
+          "payment": "매장 쿠폰",
+          "minimum": "세전 ¥30,000",
+          "discount": "면세 + 최대 7%",
+          "deadline": "종료일 미표기",
+          "href": "https://livejapan.com/public/operation/coupon/donki/ko.html",
+          "note": "다른 할인과 중복 불가 · 주류·Apple 등 제외",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-15",
+          "store": "빅카메라",
+          "payment": "매장 쿠폰",
+          "minimum": "세전 ¥5,000",
+          "discount": "면세 + 3~7%",
+          "deadline": "2026.10.31",
+          "href": "https://livejapan.com/public/operation/coupon/biccamera/en.html",
+          "note": "가전·카메라 7% / 화장품 5% / 일본주 일부 3%",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-16",
+          "store": "이와타야·후쿠오카 미츠코시",
+          "payment": "게스트 카드",
+          "minimum": "단품 ¥3,000",
+          "discount": "5% 할인",
+          "deadline": "상시 · 종료일 미표기",
+          "href": "https://www.iwataya-mitsukoshi.mistore.jp/mitsukoshi/event_calendar/globalcustomer/guest-card.html",
+          "note": "쇼핑 전 면세카운터에서 여권으로 발급 · 제외 브랜드 있음",
+          "verifiedAt": "2026-09-18"
+        },
+        {
+          "id": "shopping-benefit-17",
+          "store": "일본 면세 대응 매장",
+          "payment": "면세",
+          "minimum": "세전 ¥5,000",
+          "discount": "소비세 면제",
+          "deadline": "현행 방식 2026.10.31까지",
+          "href": "https://www.mlit.go.jp/kankocho/tax-free/page01_000001_00019.html",
+          "note": "여권 원본 · 같은 매장/같은 날 · 소모품은 개봉 금지",
+          "verifiedAt": "2026-09-18"
+        }
+      ],
+      "benefitNotice": "카카오페이는 카카오페이머니만 대상이며 카드 결제는 제외. 매장 쿠폰과 결제 프로모션의 중복은 보장되지 않으므로 최종 결제 화면에서 할인액을 확인."
+    },
+    {
+      "id": "budget",
+      "type": "expense-table",
+      "navLabel": "예산",
+      "eyebrow": "BUDGET",
+      "title": "확정·예상 비용",
+      "description": "개인 쇼핑 별도",
+      "summary": [
+        {
+          "id": "lodging",
+          "label": "숙소 확정",
+          "value": "¥79,834"
+        },
+        {
+          "id": "shared",
+          "label": "공용비 목표",
+          "value": "¥80,000"
+        },
+        {
+          "id": "luggage",
+          "label": "짐 보관",
+          "value": "¥1,700"
+        }
+      ],
+      "items": [
+        {
+          "id": "expense-1",
+          "category": "확정 숙박비",
+          "description": "Atlas Apartment · 4박 / 2인",
+          "displayAmount": "¥79,834"
+        },
+        {
+          "id": "expense-2",
+          "category": "숙박세 예상",
+          "description": "¥200 × 2명 × 4박 · 포함 여부 현장 확인",
+          "displayAmount": "¥1,600"
+        },
+        {
+          "id": "expense-3",
+          "category": "Bounce 짐 보관",
+          "description": "9/22 · 짐 2개 · 공용 여행경비",
+          "displayAmount": "¥1,700"
+        },
+        {
+          "id": "expense-4",
+          "category": "히타 왕복 버스",
+          "description": "¥3,580 × 2명",
+          "displayAmount": "¥7,160"
+        },
+        {
+          "id": "expense-5",
+          "category": "유메산스이",
+          "description": "¥800 × 2명",
+          "displayAmount": "¥1,600"
+        },
+        {
+          "id": "expense-6",
+          "category": "삿포로 생맥주",
+          "description": "흑라벨/에비스 각 ¥450 기준",
+          "displayAmount": "현장 선택"
+        },
+        {
+          "id": "expense-7",
+          "category": "후쿠마 ↔ 미야지다케 버스",
+          "description": "편도 약 ¥210 × 왕복 × 2명",
+          "displayAmount": "약 ¥840"
+        },
+        {
+          "id": "expense-8",
+          "category": "공용비",
+          "description": "교통·식사·술·공용지출 목표",
+          "displayAmount": "¥80,000"
+        },
+        {
+          "id": "expense-9",
+          "category": "개인 쇼핑",
+          "description": "주류·카메라·의류",
+          "displayAmount": "별도"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "miyajidake-access-blog",
+      "title": "미야지다케 가는 법",
+      "url": "https://m.blog.naver.com/yunni_gongbang/224406531097",
+      "sourceType": "blog",
+      "accessedAt": "2026-09-18"
+    },
+    {
+      "id": "miyajidake-festival-2026",
+      "title": "2026 미야지다케 추계대제 공식 일정",
+      "url": "https://www.miyajidake.or.jp/news/topics/%E7%A7%8B%E5%AD%A3%E5%A4%A7%E7%A5%AD%E8%A1%8C%E4%BA%8B%E6%97%A5%E7%A8%8B",
+      "publisher": "미야지다케 신사",
+      "sourceType": "official",
+      "accessedAt": "2026-09-19"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "defaultTripId": "fukuoka-2026",
+  "trips": [
+    {
+      "id": "fukuoka-2026",
+      "title": "후쿠오카 4박 5일",
+      "subtitle": "도시 · 역사 · 축제 · 쇼핑 · 먹거리",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-22",
+      "status": "completed",
+      "tags": ["후쿠오카", "히타", "다자이후", "미야지다케"],
+      "dataPath": "trips/fukuoka-2026.json"
+    }
+  ]
+}

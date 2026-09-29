@@ -36,6 +36,46 @@ a {
 button {
   color: inherit;
 }
+.trip-selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.trip-selector select {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 34px 0 13px;
+  background: #171918;
+  color: var(--ink);
+  font: inherit;
+  letter-spacing: 0;
+}
+.data-state {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 10px;
+  padding: 24px;
+  background: var(--bg);
+  color: var(--ink);
+  text-align: center;
+}
+.data-state span {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.16em;
+}
+.data-state h1 {
+  margin: 0;
+  font-size: clamp(22px, 5vw, 42px);
+}
 .site-shell {
   position: relative;
   min-height: 100svh;
