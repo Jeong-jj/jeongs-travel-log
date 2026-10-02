@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trip-archive-v2.0.0';
+const CACHE_NAME = 'jeongs-travel-log-v2.0.0';
 const BASE_URL = new URL('./', self.location.href).pathname;
 const OFFLINE_PAGE = `${BASE_URL}index.html`;
 const APP_SHELL = [

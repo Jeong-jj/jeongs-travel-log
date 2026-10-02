@@ -1,4 +1,4 @@
-# Fukuoka Trip Project Handoff
+# Fukuoka 2026 Record Handoff
 
 > 이 문서는 사이트 코드에 이미 표현된 일정/가격/매장 데이터를 복제하기 위한 문서가 아니다.
 > 코드만 보고는 알기 어려운 사용자 의도, 의사결정 배경, 작업 규칙,
@@ -554,7 +554,7 @@ DOM 구조를 임의로 문자열 위치에 삽입하는 식의
 
 Example:
 
-fukuoka-trip/
+jeongs-travel-log/
 ├── index.html
 ├── assets/
 ├── css/

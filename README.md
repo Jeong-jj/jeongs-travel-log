@@ -1,6 +1,6 @@
-# Trip Archive 2.0
+# Jeong's Travel Log
 
-React 19 + TypeScript + Vite로 만든 모바일 우선 정적 여행 아카이브입니다. 서버 없이 여행별 JSON을 읽으며, 현재 후쿠오카 2026 기록을 첫 데이터로 제공합니다.
+React 19 + TypeScript + Vite로 만든 모바일 우선 여행 기록 서비스입니다. 서버 없이 여행별 JSON을 읽으며, 후쿠오카 2026 기록을 첫 데이터로 제공합니다.
 
 ## 실행
 

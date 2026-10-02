@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "Trip Archive 여행 기록",
-  "short_name": "여행 기록",
+  "name": "Jeong's Travel Log",
+  "short_name": "Travel Log",
   "description": "여행별 일정과 장소, 비용, 실제 기록을 보관하는 모바일 아카이브",
   "lang": "ko",
   "start_url": "./",
