@@ -2,6 +2,8 @@
 
 여행 데이터는 화면 구현과 분리한다. 앱은 `public/data/trips.json`에서 여행 목록을 읽고, 선택한 여행의 `dataPath`에 있는 JSON을 불러와 렌더링한다.
 
+제품 목적과 운영 경계는 [`PROJECT_CONTEXT.md`](../PROJECT_CONTEXT.md)를 먼저 참고한다.
+
 ## 설계 원칙
 
 - `schemaVersion`으로 데이터 포맷의 변경을 추적한다.
